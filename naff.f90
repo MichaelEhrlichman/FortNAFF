@@ -4,6 +4,9 @@
 ! This module implements the NAFF algorithm for calculating the spectra
 ! of periodic data.
 !
+! This code was originally developed by Michael Ehrlichman in 2015 while working
+! at the Paul Scherrer Institut in Villigen, Switzerland.
+!
 ! Decomposes data of the form D(:) = D1(:) + i D2(:).
 !
 ! freqs contains the frequencies found in the data.
