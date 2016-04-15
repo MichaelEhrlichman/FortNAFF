@@ -29,9 +29,12 @@
 
 module naff_mod
 
-use physical_constants
+!use physical_constants
 
 implicit none
+
+integer, parameter :: rp = selected_real_kind(11)
+real(rp), parameter :: twopi = 6.28318530718
 
 contains
 
