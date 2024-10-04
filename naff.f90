@@ -34,7 +34,7 @@ module naff_mod
 implicit none
 
 integer, parameter :: rp = selected_real_kind(11)
-real(rp), parameter :: twopi = 6.28318530718
+real(rp), parameter :: twopi = 6.283185307179586_rp
 
 contains
 
